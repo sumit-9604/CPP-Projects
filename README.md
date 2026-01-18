@@ -48,29 +48,6 @@ LOW (<40%)
 
 File I/O: Reads any text files with error handling
 
-📊 Complete Data Flow Diagram
-
-[START]
-   ↓
-[USER INPUT]
-├── File1 name ──→ readfile()
-└── File2 name ──→ readfile()
-   ↓
-[PROCESSING PIPELINE] (Parallel for both files)
-   ↓
-└── removecomments()
-    ↓
-└── normalisecode()
-    ↓
-[Vector<string> A]    [Vector<string> B]
-         ↓                    ↓
-    calculatesimilarity()
-         ↓
-    [Similarity %] ──→ [Classification]
-         ↓
-[OUTPUT RESULT]
-   ↓
-[END]
 
 🛠️ Tech Stack
 text
