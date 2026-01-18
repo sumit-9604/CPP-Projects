@@ -1,4 +1,4 @@
-### PERSONAL EXPENSES TRACKER ###
+1. ### PERSONAL EXPENSES TRACKER ###
 A C++ console-based application for tracking income, expenses, budget planning, and smart spending analysis. Built with OOP principles using inheritance, polymorphism, and file I/O for persistent data storage.
 
 📋 Features
