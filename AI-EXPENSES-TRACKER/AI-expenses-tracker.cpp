@@ -144,7 +144,8 @@ int main(){
             cout<<"type: "; cin >> tp;
             Expense temp;
             temp.setexpence(amt,dt,cat,tp);
-            expences.push_back(temp);}
+            expences.push_back(temp);
+            break;}
 
         case 3:{
             float incomes = 0, expenses = 0, limit;
