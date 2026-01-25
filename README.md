@@ -199,3 +199,64 @@ g++ -std=c++17 dsa_visualizer.cpp -o dsa_vis.exe
 # Run
 ./dsa_vis    # Linux/macOS
 dsa_vis.exe  # Windows
+
+<screenshots>
+<img width="1149" height="606" alt="Screenshot 2026-01-24 231233" src="https://github.com/user-attachments/assets/c8e195f7-ef09-49f1-956f-00193547d0ca" />
+<img width="1153" height="605" alt="Screenshot 2026-01-24 231246" src="https://github.com/user-attachments/assets/cd22db0e-c94f-4ace-8620-7e0e8dc0859a" />
+
+
+4. ### CPU SHEDULING SIMULATOR ###
+
+A C++ console-based CPU Scheduling Algorithms visualizer that demonstrates FCFS, SJF, and Round Robin with Gantt charts and step-by-step execution. Perfect for Operating Systems coursework and technical interviews.
+
+✨ Features
+FCFS (First Come First Serve)
+
+Simple arrival-order execution
+
+Shows waiting time calculation
+
+Complete TAT/WT metrics
+
+SJF (Shortest Job First)
+
+Non-preemptive shortest burst first
+
+Idle time handling when no process ready
+
+Dynamic process selection
+
+Round Robin
+
+Preemptive time quantum scheduling
+
+Ready queue simulation
+
+Remaining time tracking
+
+Visualization
+
+Step-by-step Gantt chart generation
+
+500ms delays for clear animation
+
+Average Waiting Time (AWT) & Turnaround Time (ATT)
+
+🎮 Demo Output
+text
+ENTER THE PROCESS: 3
+
+process p 1
+arrival time : 0
+burst time : 8
+priority (lower = higher) : 2
+
+CPU SCHEDULING ALGORITHMS
+1. FCFS  2. SJF  3. Round Robin
+Choice: 2
+
+GANTT CHART
+| P1 | P2 | P3 |
+0    8   13   17
+
+
