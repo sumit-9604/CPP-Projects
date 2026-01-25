@@ -134,3 +134,68 @@ enter the second file: student2.cpp
 ------------------------------------------------------------------------------------------------------
 similarity : 85.2%
 HIGH PLAGIARISM
+
+3. ### DSA VISUALISER ###
+
+   
+A C++ console-based Data Structures & Algorithms visualization tool that demonstrates sorting, searching, stack, and queue operations with step-by-step animations using delays and highlighted elements. Perfect for B.Tech CSE students preparing for DSA exams and interviews.
+
+✨ Features
+Sorting Visualizations (Bubble, Selection, Insertion)
+
+Shows comparisons with [highlighted] elements
+
+Displays swaps step-by-step
+
+500ms delays for clear visualization
+
+Searching Visualizations (Linear, Binary)
+
+Linear: Scans original array left→right
+
+Binary: Auto-sorts + shows pivot narrowing (low <= high fixed)
+
+Highlights current position/midpoint
+
+Stack Operations (Push, Pop, Display)
+
+Interactive menu-driven interface
+
+Shows Top→Bottom order
+
+Input buffer handling for smooth UX
+
+Queue Operations (Enqueue, Dequeue, Display)
+
+Front→Rear visualization
+
+Clean interactive menu
+
+🎮 Demo Output
+text
+========== DSA VISUALISATION ==========
+1. Sorting  2. Searching  3. Stack  4. Queue
+Choice: 1
+enter the number of elements 5
+enter the elements 
+64 34 25 12 22
+1.Bubble 2.Selection 3.Insertion
+Choice: 1
+
+BUBBLE SORT
+[64][34] 
+64 [34] 
+swapped
+[34][64] 
+34 [64] 
+Build & Run
+bash
+# Full features (with delays)
+g++ -std=c++17 -pthread dsa_visualizer.cpp -o dsa_vis
+
+# Windows MinGW (if pthread fails)
+g++ -std=c++17 dsa_visualizer.cpp -o dsa_vis.exe
+
+# Run
+./dsa_vis    # Linux/macOS
+dsa_vis.exe  # Windows
