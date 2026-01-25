@@ -26,14 +26,28 @@ struct process{
 
 
 void printgantt(const vector<pair<int,int>> &gantt){
-    cout<<"\nGANTT CHART\n|";
-    for (auto &g : gantt){
-        cout<<" P"<<g.first<<" |";
-        cout<<"\n0";}
+    cout << "\n" << string(50, '=') << "\n";
+    cout << "          GANTT CHART\n";
+    cout << string(50, '=') << "\n";
+    
+    // Time scale
+    cout << " 0";
+    for (auto &g : gantt) {
+        cout << setw(5) << g.second;
+    }
+    cout << "\n";
+    
+    // Process blocks (aligned)
+    cout << "|";
+    for (auto &g : gantt) {
+        cout<<" p" <<setw(3) <<g.first<<"|";
 
-    for (auto &g : gantt){
-        cout<<setw(4)<<g.second;
-        cout<<"\n\n";}
+    }
+    cout << "\n\n";
+    
+    cout << "Total time: " << gantt.back().second<< " units\n";
+    cout << string(50, '=') << "\n";
+    delay(1000);
 }
 
 
