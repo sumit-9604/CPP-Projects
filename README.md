@@ -260,3 +260,5 @@ GANTT CHART
 0    8   13   17
 
 
+<img width="1158" height="868" alt="Screenshot 2026-01-25 134737" src="https://github.com/user-attachments/assets/66a7cb05-9c2f-4f93-b029-cf25eee8218d" />
+<img width="1007" height="834" alt="Screenshot 2026-01-25 134749" src="https://github.com/user-attachments/assets/7d489278-f58f-483f-9a7c-02de282054a9" />
